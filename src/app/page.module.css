@@ -1,0 +1,52 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  background: linear-gradient(145deg,rgb(10, 10, 10), #fbfbfc); 
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.198);
+}
+.signin {
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+}
+
+.desc {
+  margin-top: 6px;
+  font-size: 0.8rem;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  height: 50px;
+  padding: 5px 10px;
+}
+
+.button {
+  border-radius: 40px;
+  width: 100%;
+  margin-top: 1rem;
+  height: 50px;
+  background: linear-gradient(145deg,rgb(250, 252, 251), #0a8cd8); 
+  border: none;
+  color: rgb(246, 250, 248);
+  font-size: 1.2rem;
+}
+
+.notResgitered {
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px 0px;
+  width: 100%;
+  margin-top: 1rem;
+  color: rgb(20, 20, 20);
+}
